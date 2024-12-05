@@ -13,7 +13,7 @@ public class Rice_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameFlow.destroyRice == "y")
+        if (GameFlow.destroyRice == "y" && gameObject)
         {
             GameFlow.destroyRice = "n";
             Destroy(gameObject);

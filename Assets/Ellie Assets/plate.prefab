@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   burgersilogObj: {fileID: 4406582094883396997, guid: 776c7c94233f7c34ea75239866412767, type: 3}
-  sisigSilogObj: {fileID: 0}
+  sisigSilogObj: {fileID: 2843662325892621540, guid: 4e3c8370a17e7414289e7028ef0a6131, type: 3}
 --- !u!65 &-7261409815471567400
 BoxCollider:
   m_ObjectHideFlags: 0

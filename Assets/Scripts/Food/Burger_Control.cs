@@ -31,7 +31,7 @@ public class Burger_Control : MonoBehaviour
             GetComponent<MeshRenderer> ().material = cookedBurgerMat;
         }
 
-        if(GameFlow.destroyBurger == "y")
+        if(GameFlow.destroyBurger == "y" && gameObject)
         {
             GameFlow.destroyBurger = "n";
             Destroy(gameObject);
@@ -40,7 +40,7 @@ public class Burger_Control : MonoBehaviour
 
     void OnMouseDown()
     {
-        if(GameFlow.placeBurgerPan == "y" && cookingTime > 5)
+        if(GameFlow.placeBurgerPan == "y" && cookingTime > GameFlow.timer)
         {
             GetComponent<Transform> ().position = new Vector3 (1.227f, 1.23f,  -2.035f);
             GameFlow.placeBurgerPan = "n"; GameFlow.placeBurgerPlate = "y"; GameFlow.destroySteam = "y";

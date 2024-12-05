@@ -26,7 +26,7 @@ public class Egg_Control : MonoBehaviour
             GetComponent<MeshRenderer> ().material = cookedEggMat;
         }
 
-        if(GameFlow.destroyEgg == "y")
+        if(GameFlow.destroyEgg == "y" && gameObject)
         {
             GameFlow.destroyEgg = "n";
             Destroy(gameObject);
@@ -34,7 +34,7 @@ public class Egg_Control : MonoBehaviour
     }
     void OnMouseDown()
     {
-        if(GameFlow.placeEggPan == "y" && cookingTime >5)
+        if(GameFlow.placeEggPan == "y" && cookingTime >GameFlow.timer)
         {
             GetComponent<Transform> ().position = new Vector3 (0.982f, 1.255f,  -2.027f);
             GameFlow.placeEggPan = "n"; GameFlow.placeEggPlate = "y"; GameFlow.destroySteam = "y";

@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class GameFlow : MonoBehaviour
 {
+    public static string atCounter = "n";
+    public static string moveAway= "n";
+    public static string spawnNew = "y";
+    public static int playerScore = 0;
     public static string placeEggPan = "n";
+    public static string placeSisigPan = "n";
     public static string placeBurgerPan = "n";
     ///
     public static string placeEggPlate = "n";
     public static string placeBurgerPlate = "n";
+    public static string placeSisigPlate = "n";
     public static string placeRicePlate = "n";
     public static string placePlate = "n";
     ///    
@@ -25,6 +31,13 @@ public class GameFlow : MonoBehaviour
     public static string sisigsilogOnHand = "n";
     ///
     public static int timer = 1;
+
+    public static string destroyBurgerSign = "n";
+    public static string destroySisigSign = "n";
+    public static string checkSign = "n";
+    public static string xSign = "n";
+    public static string burgerSign = "n";
+    public static string sisigSign = "n";
 
     // Start is called before the first frame update
     void Start()

@@ -13,7 +13,7 @@ public class Steam_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameFlow.destroySteam == "y")
+        if(GameFlow.destroySteam == "y" && gameObject)
         {
             GameFlow.destroySteam = "n";
             Destroy(gameObject);

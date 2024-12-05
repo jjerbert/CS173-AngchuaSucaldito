@@ -26,6 +26,7 @@ public class I_EggBox : MonoBehaviour
         GameFlow.placeEggPlate == "n" && 
         GameFlow.placeBurgerPan == "n" && 
         GameFlow.placeEggPlate == "n" && 
+        GameFlow.placeSisigPan == "n" &&
         GameFlow.placePlate == "y" &&
         GameFlow.burgersilogOnHand == "n")
         {

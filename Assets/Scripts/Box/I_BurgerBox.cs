@@ -22,7 +22,9 @@ public class I_BurgerBox : MonoBehaviour
         GameFlow.placeBurgerPlate == "n" && 
         GameFlow.placeBurgerPan == "n" && 
         GameFlow.placeBurgerPlate == "n" && 
+        GameFlow.placeSisigPan == "n" &&
         GameFlow.placePlate == "y" &&
+        GameFlow.placeSisigPlate == "n" &&
         GameFlow.burgersilogOnHand == "n")
         {
             //bool for if theres an Egg

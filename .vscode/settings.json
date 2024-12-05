@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CS173 Project.sln"
+    "dotnet.defaultSolution": "CS173-AngchuaSucaldito.sln"
 }
