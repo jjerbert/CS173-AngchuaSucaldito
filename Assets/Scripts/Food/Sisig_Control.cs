@@ -26,7 +26,7 @@ public class Sisig_Control : MonoBehaviour
             GetComponent<MeshRenderer> ().material = cookedSisigMat;
         }
 
-        if(GameFlow.destroySisig == "y" && gameObject)
+        if(GameFlow.destroySisig == "y")
         {
             GameFlow.destroySisig = "n";
             Destroy(gameObject);

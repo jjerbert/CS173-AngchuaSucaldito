@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Score_Control : MonoBehaviour
 {
+    public static Score_Control instance;
+    
     public Text scoreText;
 
     int score = 0;

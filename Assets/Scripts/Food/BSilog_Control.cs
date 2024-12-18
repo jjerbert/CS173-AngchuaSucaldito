@@ -12,12 +12,12 @@ public class BSilog_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameFlow.destroyBurgerSilog == "y" && gameObject) 
+        if (GameFlow.destroyBurgerSilog == "y") 
         {
             GameFlow.destroyBurgerSilog = "n";
             Destroy(gameObject);
             GameFlow.burgersilogOnHand = "n";
-            /*
+            
             GameFlow.sisigsilogOnHand = "n";
 
             GameFlow.placeEggPan = "n";
@@ -28,7 +28,7 @@ public class BSilog_Control : MonoBehaviour
             GameFlow.placeBurgerPlate = "n";
             GameFlow.placeSisigPlate = "n";
             GameFlow.placeRicePlate = "n";
-            GameFlow.placePlate = "n";*/
+            GameFlow.placePlate = "n";
 
             GameFlow.destroySteam = "n";
         }

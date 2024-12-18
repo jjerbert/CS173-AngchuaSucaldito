@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class GameFlow : MonoBehaviour
 {
-    public static string atCounter = "n";
-    public static string moveAway= "n";
-    public static string spawnNew = "y";
     public static int playerScore = 0;
     public static string placeEggPan = "n";
     public static string placeSisigPan = "n";

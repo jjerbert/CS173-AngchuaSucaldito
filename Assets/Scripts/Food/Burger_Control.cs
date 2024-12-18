@@ -31,7 +31,7 @@ public class Burger_Control : MonoBehaviour
             GetComponent<MeshRenderer> ().material = cookedBurgerMat;
         }
 
-        if(GameFlow.destroyBurger == "y" && gameObject)
+        if(GameFlow.destroyBurger == "y")
         {
             GameFlow.destroyBurger = "n";
             Destroy(gameObject);

@@ -26,7 +26,7 @@ public class Egg_Control : MonoBehaviour
             GetComponent<MeshRenderer> ().material = cookedEggMat;
         }
 
-        if(GameFlow.destroyEgg == "y" && gameObject)
+        if(GameFlow.destroyEgg == "y")
         {
             GameFlow.destroyEgg = "n";
             Destroy(gameObject);
