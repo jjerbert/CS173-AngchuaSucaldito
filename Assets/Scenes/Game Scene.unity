@@ -5700,11 +5700,11 @@ PrefabInstance:
     - target: {fileID: 2957098819248957040, guid: 23fe7734241f0a447bcbe66cec54a422, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d3013efb211df1b4b87912756c9bdab4, type: 2}
+      objectReference: {fileID: 2100000, guid: 9debe0e36d5839f42bab27d093b24430, type: 2}
     - target: {fileID: 3306898118122456387, guid: 23fe7734241f0a447bcbe66cec54a422, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d3013efb211df1b4b87912756c9bdab4, type: 2}
+      objectReference: {fileID: 2100000, guid: 9debe0e36d5839f42bab27d093b24430, type: 2}
     - target: {fileID: 3999834395830152974, guid: 23fe7734241f0a447bcbe66cec54a422, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.718
@@ -6373,6 +6373,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 374410988647287074, guid: 454daf67fc7ced240a683d21891f9b9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fe91a02144b9ee41ab97ed2fc4761cd, type: 2}
     - target: {fileID: 1506043598786245174, guid: 454daf67fc7ced240a683d21891f9b9b, type: 3}
       propertyPath: m_Name
       value: wall (2)
@@ -7585,7 +7589,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245364837}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -7659,7 +7663,7 @@ MonoBehaviour:
   rb: {fileID: 1245364841}
   camHolder: {fileID: 119079178}
   speed: 8
-  sensitivity: 0.8
+  sensitivity: 0.2
   maxForce: 1
 --- !u!114 &1245364847
 MonoBehaviour:
@@ -8978,6 +8982,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 374410988647287074, guid: 454daf67fc7ced240a683d21891f9b9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ea7d0b917c5c9f4786d360100841633, type: 2}
     - target: {fileID: 1506043598786245174, guid: 454daf67fc7ced240a683d21891f9b9b, type: 3}
       propertyPath: m_Name
       value: wall (1)
@@ -11270,7 +11278,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02044083695207a4a986a5690eb1fc05, type: 2}
+  - {fileID: 2100000, guid: 5ea7d0b917c5c9f4786d360100841633, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12311,7 +12319,7 @@ PrefabInstance:
     - target: {fileID: 8449996119470504636, guid: 51191086f76d2144a9c0a07a44c51867, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d3013efb211df1b4b87912756c9bdab4, type: 2}
+      objectReference: {fileID: 2100000, guid: 9debe0e36d5839f42bab27d093b24430, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12556,6 +12564,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 374410988647287074, guid: 454daf67fc7ced240a683d21891f9b9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ea7d0b917c5c9f4786d360100841633, type: 2}
     - target: {fileID: 1506043598786245174, guid: 454daf67fc7ced240a683d21891f9b9b, type: 3}
       propertyPath: m_Name
       value: wall
